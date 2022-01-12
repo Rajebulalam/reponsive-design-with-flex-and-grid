@@ -47,7 +47,7 @@ a{
     width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 20px 0;
+    padding: 20px 3%;
 }
 .logo{
     display: flex;
@@ -211,7 +211,7 @@ hr{
     width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 40px 0;
+    padding: 40px 3%;
     color: #fff;
 }
 

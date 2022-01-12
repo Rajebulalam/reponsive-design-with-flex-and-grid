@@ -1,0 +1,218 @@
+/* Google Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@500&display=swap');
+
+/* Start Common Style */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #E5E5E5;
+}
+h2{
+    font-size: 24px;
+    color: #562EFF;
+    padding-bottom: 40px;
+}
+h3{
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 870px;
+    width: 100%;
+    background-color: #fff;
+    padding: 30px 30px;
+    margin-top: 36px;
+    border-radius: 5px;
+}
+/* End Common Style */
+
+
+/* Start Header Part */
+
+#header-area{
+    background-color: #562EFF;
+    display: flex;
+    justify-content: center;
+}
+.inner-header{
+    max-width: 870px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo a{
+    font-size: 24px;
+    color: #fff;
+    padding-left: 10px;
+}
+.menu ul{
+    display: flex;
+    align-items: center;
+}
+li{
+    list-style: none;
+    padding-left: 30px;
+}
+li a{
+    font-size: 16px;
+    color: #fff;
+}
+
+/* End Header Part */
+
+
+/* Start Main Part */
+
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+/* End Main Part */
+
+
+/* Start Top Player Part */
+
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+}
+.player{
+    display: flex;
+    align-items: center;
+}
+.player img{
+    width: 56px;
+    height: 56px;
+}
+.player a{
+    padding-left: 20px;
+    color: #000;
+}
+
+
+/* End Top Player Part */
+
+
+/* Start Horizonatal Line */
+
+hr{
+    color: #D1D1D1;
+    margin: 40px 0 30px 0;
+}
+
+/* End Horizonatal Line */
+
+
+/* Start Top Blog Part */
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 26px;
+}
+.blogs article{
+    display: flex;
+    align-items: center;
+} 
+.blog-img img{
+    width: 177px;
+    height: 117px;
+}
+.blog-info{
+    padding-left: 16px;
+}
+.blog-info p{
+    color: #9F9F9F;
+}
+.blog-info a{
+    color: #562EFF;
+}
+
+/* End Top Blog Part */
+
+
+/* Start Course Part */
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 23.58px;
+}
+.courses article{
+    padding: 17px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.course-img img{
+    width: 224px;
+    height: 104px;
+}
+.course-details h3{
+    font-family: 'Roboto', sans-serif;
+}
+.course-details a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14.69px;
+    color: #ED6B4F;
+}
+.course-info{
+    display: flex;
+    justify-content: space-between;
+}
+.star, .font-icon span, .far, .duration p{
+    font-size: 14px;
+}
+.star{
+    color: #FFC014;
+}
+.font-icon .far, .font-icon span{
+    color: #A2A2A2;
+}
+.duration{
+    display: flex;
+    align-items: center;
+    color: #ED6B4F;
+    background-color: #FEE5DF;
+    padding: 5px 10px;
+    border-radius: 30px;
+}
+.duration p{
+    padding-left: 5px;
+}
+
+/* End Course Part */
+
+
+/* Start Footer Part */
+
+.footer-area{
+    background-color: #562EFF;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.footer-area .inner-footer{
+    max-width: 870px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+    color: #fff;
+}
+
+/* End Footer Part */

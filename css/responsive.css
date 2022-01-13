@@ -1,4 +1,4 @@
-/* Start Tablet Layout Responsive Part */
+/* Start Tablet Layout Part */
 
 @media only screen and (min-width: 200px) and (max-width: 991px) {
 
@@ -18,14 +18,17 @@
 
 }
 
-/* End Tablet Layout Responsive Part */
+/* End Tablet Layout Part */
 
 
-/* Start I-pad Layout Responsive Part */
+/* Start I-pad Layout Part */
 
 @media only screen and (min-width: 200px) and (max-width: 680px) {
     .players {
         grid-template-columns: repeat(2, 1fr);
+    }
+    .courses article {
+        margin-bottom: 30px;
     }
     .footer-area .inner-footer {
         flex-direction: column;
@@ -34,14 +37,18 @@
     .child-footer p{
     padding: 5PX;
     }
+    
 }
 
-/* End I-pad Layout Responsive Part */
+/* End I-pad Layout Part */
 
 
-/* Start Mobile Responsive Part */
+/* Start Mobile Part */
 
 @media only screen and (min-width: 200px) and (max-width: 480px) {
+    .container {
+        padding: 30px 4%;
+    }
     .menu li{
         display: none;
     }
@@ -58,6 +65,9 @@
         width: 100%;
         height: auto;
     }
+    .footer-area p{
+        text-align: center;
+    }
 }
 
-/* End Mobile Responsive Part */
+/* End Mobile Part */

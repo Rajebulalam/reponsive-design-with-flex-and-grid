@@ -1,18 +1,42 @@
 /* Start Top Players Animation */
 
-.players{
+.player{
     position: relative;
-    animation: top-slide 1s ease-out 0.5s;
+    animation: left-slide 0.3s linear forwards;
+    opacity: 0;
+    animation-delay: calc(0.2s * var(--i));
 }
-@keyframes top-slide {
+@keyframes left-slide {
     0%{
-        top: -100px;
+        transform: translateX(100px);
         opacity: 0;
     }
     100%{
-        top: 0;
+        transform: translateX(0px);
         opacity: 1;
     }
 }
 
 /* End Top Players Animation */
+
+
+/* Start Blog Animation */
+
+.blog{
+    position: relative;
+    animation: top-slide 0.5s linear forwards;
+    animation-delay: calc(0.5s * var(--i));
+    opacity: 0;
+}
+@keyframes top-slide {
+    0%{
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+/* End Blog Animation */
